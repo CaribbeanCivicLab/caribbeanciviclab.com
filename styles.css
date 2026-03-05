@@ -309,6 +309,27 @@ h3 {
   margin-top: 12px;
 }
 
+.project__specs {
+  display: flex;
+  gap: 16px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 13px;
+}
+
+.project__specs li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+}
+
+.project__specs li .mono {
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
