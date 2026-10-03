@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Caribbean Civic Lab (Draft)</title>
+    <title>Caribbean Civic Lab: A Manifesto</title>
     <meta
       name="description"
-      content="Caribbean Civic Lab is an implementation-first civic AI initiative for small island states. This is a work-in-progress page to show intent and gather feedback."
+      content="AI will mediate how the world understands the Caribbean. Caribbean Civic Lab builds the infrastructure that makes our islands legible to AI as a public asset: stewarded, not extracted."
     />
     <meta name="robots" content="index,follow" />
 
-    <meta property="og:title" content="Caribbean Civic Lab (Draft)" />
+    <meta property="og:title" content="Caribbean Civic Lab: A Manifesto" />
     <meta
       property="og:description"
-      content="A work-in-progress, implementation-first civic AI initiative for small island states."
+      content="The infrastructure that makes the Caribbean legible to AI should be a public asset. We build it, deploy it, and train local teams to run it."
     />
     <meta property="og:type" content="website" />
 
@@ -33,19 +33,20 @@
     <header class="top">
       <div class="wrap top__inner">
         <div class="top__left">
-          <div class="kicker">WORKING DRAFT</div>
+          <div class="kicker">A MANIFESTO</div>
           <h1 class="title">Caribbean Civic Lab</h1>
           <p class="lede">
-            An implementation-first civic AI initiative: we build and deploy
-            public-interest tools for small island states, and train local teams
-            to run them.
+            AI will increasingly mediate how the world finds, understands and
+            does business with the Caribbean. The infrastructure that makes our
+            islands legible to AI should be a public asset: stewarded, not
+            extracted. We build it, deploy it, and train local teams to run it.
           </p>
         </div>
 
         <aside class="status" aria-label="Project status">
           <div class="status__row">
             <div class="label">Status</div>
-            <div class="value">WIP / seeking feedback</div>
+            <div class="value">Working draft / seeking feedback</div>
           </div>
           <div class="status__row">
             <div class="label">Seeking</div>
@@ -61,132 +62,266 @@
             <div class="label">Founder</div>
             <div class="value">
               <a href="https://dharach.com/" target="_blank" rel="noreferrer"
-                >Matt Hamilton (Dharach)</a>
+                >Matt Hamilton (Dharach)</a
+              >
             </div>
           </div>
           <div class="status__row">
             <div class="label">Updated</div>
-            <div class="value">2026-03-05</div>
+            <div class="value">2026-10-02</div>
           </div>
         </aside>
       </div>
 
       <div class="wrap ribbon" aria-hidden="true">
         <div class="ribbon__line"></div>
-        <div class="ribbon__stamp">DRAFT FOR DISCUSSION</div>
+        <div class="ribbon__stamp">Public assets, not vendor lock-in</div>
         <div class="ribbon__line"></div>
       </div>
     </header>
 
     <main id="main" class="wrap main">
-      <section class="card section" id="what">
-        <h2>What We Do</h2>
+      <section class="card section" id="manifesto">
+        <h2>The Argument</h2>
         <p>
-          Caribbean Civic Lab builds and deploys civic AI infrastructure for small island states. We ship practical tools that people can actually use, then train local teams to run and improve them.
+          Most of what the Caribbean knows about itself was never digitised. A
+          2026 paper from UNDP and Current AI,
+          <a
+            href="https://www.undp.org/publications/introducing-data-ai-value-chain-promoting-linguistic-and-cultural-diversity-ai-diffusion"
+            target="_blank"
+            rel="noreferrer"
+            ><em
+              >Introducing the Data-to-AI Value Chain: Promoting Linguistic and
+              Cultural Diversity for AI Diffusion</em
+            ></a
+          >, states it plainly:
         </p>
+
+        <blockquote>
+          Much of this knowledge was never digitized. It exists instead in
+          manuscripts, local media, and living memory, invisible to AI by
+          default.
+        </blockquote>
+
+        <p>
+          Our radio archives, newspapers, parliamentary debates, school
+          curricula and oral history are largely illegible to the AI systems
+          that now mediate access to services, markets and public life. Small
+          states are then forced into expensive, vendor-led digital
+          transformation, or left out of the systems entirely. Neither is
+          acceptable, and neither is inevitable.
+        </p>
+
+        <p>The same paper describes what public-interest AI requires:</p>
+
+        <blockquote>
+          Treating language data as a public asset to be stewarded rather than
+          extracted, building sustainable infrastructure that more than one
+          project can use.
+        </blockquote>
+
+        <p>
+          That is what Caribbean Civic Lab is for. Not more disconnected pilots,
+          and not a dozen applications each rebuilding the same knowledge of the
+          island. Shared civic AI infrastructure for small island states, built
+          as public assets, with capability and value staying in the region.
+        </p>
+
+        <div class="principles">
+          <div class="principle">
+            <div class="principle__title">Public assets</div>
+            <div class="principle__text">
+              Data and models stewarded for the public, not extracted from it.
+            </div>
+          </div>
+          <div class="principle">
+            <div class="principle__title">Locally maintainable</div>
+            <div class="principle__text">
+              Lightweight, open tools that local teams can run and improve.
+            </div>
+          </div>
+          <div class="principle">
+            <div class="principle__title">Source-cited</div>
+            <div class="principle__text">
+              Answers traceable back to the record, so people can verify them.
+            </div>
+          </div>
+          <div class="principle">
+            <div class="principle__title">Replicable</div>
+            <div class="principle__text">
+              What works in one island should be a configuration exercise in the
+              next, not a rewrite.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card section" id="work">
+        <h2>What Already Exists</h2>
+        <p>
+          This is not a proposal on paper. Pieces of the infrastructure are
+          already built and running in Barbados.
+        </p>
+
+        <div class="projects">
+          <div class="project">
+            <div class="project__meta">
+              <div class="badge">LIVE</div>
+              <div class="mono">Barbados</div>
+            </div>
+
+            <h3 class="project__title">Yuh Hear Dem?</h3>
+            <div class="project__url">
+              <a href="https://yuhheardem.com/" target="_blank" rel="noreferrer"
+                >https://yuhheardem.com/</a
+              >
+            </div>
+
+            <p>
+              An AI-powered transparency tool that makes Barbados Parliament
+              debates searchable. Ask questions, get answers with timecoded
+              source links back to the exact video moment.
+            </p>
+
+            <ul class="project__specs">
+              <li><span class="mono">2000+</span> hours indexed</li>
+              <li><span class="mono">Open</span> knowledge graph</li>
+              <li><span class="mono">Nonpartisan</span> indexing only</li>
+            </ul>
+
+            <div class="project__cta">
+              <a
+                class="btn"
+                href="https://yuhheardem.com/"
+                target="_blank"
+                rel="noreferrer"
+                >Try Yuh Hear Dem</a
+              >
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project__meta">
+              <div class="badge badge--wip">IN DEVELOPMENT</div>
+              <div class="mono">Barbados</div>
+            </div>
+
+            <h3 class="project__title">BimOmni</h3>
+            <div class="project__url">
+              <a
+                href="https://dharach.com/bimomni.html"
+                target="_blank"
+                rel="noreferrer"
+                >dharach.com/bimomni</a
+              >
+            </div>
+
+            <p>
+              A model fine-tuned on Barbadian material, so that AI can
+              understand how Barbados speaks: our speech, names, places, history
+              and cultural context, rather than treating the island as an edge
+              case of a model trained somewhere else.
+            </p>
+
+            <ul class="project__specs">
+              <li><span class="mono">Local</span> training data</li>
+              <li><span class="mono">Bajan</span> speech and context</li>
+              <li><span class="mono">Open</span> evaluation</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <div class="project__meta">
+              <div class="badge badge--wip">IN DEVELOPMENT</div>
+              <div class="mono">Barbados</div>
+            </div>
+
+            <h3 class="project__title">Pulse</h3>
+            <div class="project__url">
+              <a
+                href="https://pulsebarbados.com/"
+                target="_blank"
+                rel="noreferrer"
+                >https://pulsebarbados.com/</a
+              >
+            </div>
+
+            <p>
+              Live knowledge infrastructure that turns fast-moving local
+              information from radio, social media, news and events into
+              structured, provenance-aware knowledge of what is happening on
+              the island right now, so AI systems can actually use it.
+            </p>
+
+            <ul class="project__specs">
+              <li><span class="mono">Radio + social</span> ingestion</li>
+              <li><span class="mono">Provenance</span> throughout</li>
+              <li><span class="mono">Current</span> by design</li>
+            </ul>
+          </div>
+        </div>
+
         <p class="muted">
-          This work is designed to align with priorities often supported by organizations like UNDP and IDB: digital transformation of public institutions, open government and access to information, local skills development, and scalable, lower-cost models for SIDS.
+          Three layers of the same stack: the public record, the cultural
+          model, and the living present. Each is useful alone. Together they
+          start to look like national infrastructure.
         </p>
       </section>
 
-      <section class="card section" id="example">
-        <h2>What We Build (An Example)</h2>
+      <section class="card section" id="commons">
+        <h2>What We Are Calling For</h2>
         <p>
-          Yuh Hear Dem? is one example of the kind of civic AI infrastructure CCL builds and deploys. It demonstrates our approach: modular tools, open source, local training, and replication to other islands.
+          Projects like these should not remain isolated, self-funded
+          experiments. The opportunity, for Barbados first and then the region,
+          is shared infrastructure:
         </p>
 
-        <div class="twoCol">
-          <div>
-            <div class="project">
-              <div class="project__meta">
-                <div class="badge">LIVE</div>
-                <div class="mono">Barbados</div>
-              </div>
+        <ul class="commons-list">
+          <li>Local datasets with proper governance and provenance</li>
+          <li>
+            Shared APIs and knowledge infrastructure that startups, researchers
+            and government can build on
+          </li>
+          <li>Evaluation benchmarks built for our context, not translated from
+            somewhere else</li>
+          <li>Models that understand local language and culture</li>
+          <li>Sustainable compute and technical capacity</li>
+          <li>
+            Funding that treats this as durable public infrastructure, not
+            one-off grants and hackathon prizes
+          </li>
+          <li>Mechanisms that keep value and capability on the island</li>
+        </ul>
 
-              <h3 class="project__title">Yuh Hear Dem?</h3>
-              <div class="project__url">
-                <a
-                  href="https://yuhheardem.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  >https://yuhheardem.com/</a>
-              </div>
-
-              <p>
-                An AI-powered transparency tool that makes Barbados Parliament debates searchable. Ask questions, get answers with timecoded source links back to the exact video moment.
-              </p>
-
-              <ul class="project__specs">
-                <li><span class="mono">2000+</span> hours indexed</li>
-                <li><span class="mono">Open</span> knowledge graph</li>
-                <li><span class="mono">Nonpartisan</span> indexing only</li>
-              </ul>
-
-              <div class="project__cta">
-                <a
-                  class="btn"
-                  href="https://yuhheardem.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  >Try Yuh Hear Dem</a>
-              </div>
-            </div>
-          </div>
-
-          <aside class="callout">
-            <h3>Why this model matters</h3>
-            <p>
-              Small states are often forced into expensive, vendor-led digital transformation. AI lowers the cost of building useful civic infrastructure — if we keep it lightweight, source-cited, and locally maintainable.
-            </p>
-
-            <div class="callout__rule"></div>
-
-            <h3>Our approach</h3>
-            <p>
-              <strong>Build</strong> modular, open tools<br/>
-              <strong>Deploy</strong> in real contexts<br/>
-              <strong>Train</strong> local talent<br/>
-              <strong>Replicate</strong> to other islands
-            </p>
-          </aside>
-        </div>
-      </section>
-
-      <section class="card section" id="plan">
-        <h2>90-Day Intent (Barbados-First)</h2>
         <p>
-          This is the near-term plan we want feedback on. It is deliberately
-          small and deliverable, and structured as a practical pilot that can be
-          evaluated by public-sector and development partners.
+          We want to convene a small working group, a Barbados AI Commons, to
+          work out what data we have, how it should be governed, what should be
+          shared, how it is funded, and who builds on top of it. Government,
+          academia, startups, funders, culture and civil society.
         </p>
 
-        <div class="grid">
-          <div class="tile">
-            <div class="tile__kicker">Deployment hardening</div>
-            <div class="tile__body">
-              Reliability, UX improvements, an operations runbook, and clearer
-              source citations.
-            </div>
-          </div>
-          <div class="tile">
-            <div class="tile__kicker">Replication kit</div>
-            <div class="tile__body">
-              Parameterized ingest + transcript pipeline + docs so another island
-              is a configuration exercise, not a rewrite.
-            </div>
-          </div>
-          <div class="tile">
-            <div class="tile__kicker">Talent pipeline</div>
-            <div class="tile__body">
-              A small local developer cohort contributing to a real public
-              system (fellowship / hack-nights).
-            </div>
-          </div>
-        </div>
+        <p>
+          <strong>Not another hackathon. The infrastructure underneath the
+          applications.</strong>
+        </p>
 
-        <p class="muted mono">
-          Note: regional replication is part of the long-term story, but the
-          focus here is a Barbados-first flagship that can be exported.
+        <p class="muted">
+          The UNDP paper frames this as a
+          <a
+            href="https://www.undp.org/publications/introducing-data-ai-value-chain-promoting-linguistic-and-cultural-diversity-ai-diffusion"
+            target="_blank"
+            rel="noreferrer"
+            >Data-to-AI Value Chain</a
+          >, and its
+          <a
+            href="https://www.undp.org/digital-innovation/every-language-matters"
+            target="_blank"
+            rel="noreferrer"
+            >Every Language Matters</a
+          >
+          initiative gives governments a modular way to commit to exactly this.
+          Barbados could be the small island state that shows what it looks
+          like done properly.
         </p>
       </section>
 
@@ -216,8 +351,8 @@
           <div class="need">
             <div class="need__title">Partners + feedback</div>
             <div class="need__text">
-              Journalists, civil society, academia, and technologists who can
-              pressure-test usefulness and neutrality.
+              Government, journalists, civil society, academia, funders and
+              technologists who can pressure-test usefulness and neutrality.
             </div>
           </div>
         </div>
@@ -226,22 +361,29 @@
           <div class="feedback__left">
             <h3>Send feedback</h3>
             <p class="muted">
-              Short is fine. Brutally honest is welcome. If you are open to a call,
-              say so and include your timezone.
+              Short is fine. Brutally honest is welcome. If you are open to a
+              call, say so and include your timezone.
             </p>
 
             <a
               class="btn"
-              href="mailto:matt@dharach.com?subject=Caribbean%20Civic%20Lab%20-%20feedback%20/%20partner%20intro&body=Hi%20Matt%2C%0A%0AI%20saw%20the%20CCL%20draft%20page.%20Here%27s%20feedback%20/%20a%20possible%20intro%3A%0A%0A1)%20What%20should%20CCL%20build%20next%20in%20Barbados%3F%0A2)%20What%20would%20make%20you%20trust%20and%20use%20a%20parliament%20search%20tool%3F%0A3)%20Who%20should%20we%20collaborate%20with%20to%20keep%20this%20neutral%20and%20useful%3F%0A%0A(Optional)%20I%27m%20open%20to%20a%2015-min%20call%20-%20timezone%3A%20%0A%0AThanks%2C%0A"
-              >Email matt@dharach.com</a>
+              href="mailto:matt@dharach.com?subject=Caribbean%20Civic%20Lab%20-%20feedback%20/%20partner%20intro&body=Hi%20Matt%2C%0A%0AI%20saw%20the%20CCL%20manifesto.%20Here%27s%20feedback%20/%20a%20possible%20intro%3A%0A%0A1\)%20Which%20public%20data%20sources%20should%20become%20shared%20infrastructure%20first%3F%0A2\)%20Who%20should%20be%20around%20the%20table%20for%20a%20Barbados%20AI%20Commons%20working%20group%3F%0A3\)%20What%20would%20make%20you%20trust%20and%20use%20tools%20like%20this%3F%0A%0A\(Optional\)%20I%27m%20open%20to%20a%2015-min%20call%20-%20timezone%3A%20%0A%0AThanks%2C%0A"
+              >Email matt@dharach.com</a
+            >
           </div>
 
           <div class="feedback__right">
             <div class="mono smallCaps">Open questions</div>
             <ol class="questions">
-              <li>What would make you trust and use a parliamentary search tool?</li>
-              <li>Which public data sources in Barbados would be most useful next?</li>
-              <li>Who should we partner with to keep this neutral and adopted?</li>
+              <li>
+                Which public data sources should become shared infrastructure
+                first?
+              </li>
+              <li>
+                Who should be around the table for a Barbados AI Commons
+                working group?
+              </li>
+              <li>What would make you trust and use tools like this?</li>
             </ol>
           </div>
         </div>
@@ -259,16 +401,17 @@
       <div class="wrap footer__inner">
         <div class="footer__left">
           <div class="mono small">
-            Caribbean Civic Lab (draft) · Founder:
+            Caribbean Civic Lab · Founder:
             <a href="https://dharach.com/" target="_blank" rel="noreferrer"
-              >Matt Hamilton</a>
+              >Matt Hamilton</a
+            >
           </div>
           <div class="mono small">
             Contact: <a href="mailto:matt@dharach.com">matt@dharach.com</a>
           </div>
         </div>
         <div class="footer__right mono small">
-          Independent · Build · Deploy · Train · Replicate
+          Stewarded, not extracted · Build · Deploy · Train · Replicate
         </div>
       </div>
     </footer>
